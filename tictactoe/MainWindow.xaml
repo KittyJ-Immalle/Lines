@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tictactoe"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="442.912" Width="525">
     <Grid>
-        
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Height="29" Margin="397,19,0,0" VerticalAlignment="Top" Width="91" Click="button1_Click"/>
+        <Canvas x:Name="myCanvas" HorizontalAlignment="Left" Height="268" Margin="10,19,0,0" VerticalAlignment="Top" Width="366"/>
+
     </Grid>
 </Window>
